@@ -1,0 +1,15 @@
+package Basics2;
+
+public class if_else_elseif {
+	public static void main(String[] args) {
+		int n =10;
+		if (n<0)
+		{
+			System.out.println("number is positive ");
+		}
+		
+		
+	
+	}
+
+}

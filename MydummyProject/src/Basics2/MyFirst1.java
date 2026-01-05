@@ -1,0 +1,28 @@
+package Basics2;
+
+import java.util.Scanner;
+
+public class MyFirst1 {
+	
+public static void main(String[] args) {
+	Scanner scn = new Scanner (System.in);
+	
+	System.out.println("Enter a first number");
+	int a = scn.nextInt();
+	
+	System.out.println("Enter a Second number");
+	int b  = scn.nextInt();
+	
+	int add = a+b;
+	int sub = a-b;
+	int mul = a*b;
+	int div = a/b;
+	
+	System.out.println("\n addition " + add);
+    System.out.println("Sub " + sub);
+    System.out.println("mul " + mul);
+    System.out.println("div " + div);
+	
+}
+
+}

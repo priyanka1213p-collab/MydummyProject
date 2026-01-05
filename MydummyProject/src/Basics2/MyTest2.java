@@ -1,0 +1,29 @@
+package Basics2;
+
+import java.util.Scanner;
+
+public class MyTest2 {
+	public static void main(String[] args) {
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("Enter a first num");
+		int a = scn.nextInt();
+		
+	    System.out.println("Enter a second num");
+	    int b = scn.nextInt();
+	    
+	    int add = a+b;
+	    int sub = a-b;
+	    int mul = a*b;
+	    
+	    Double div =(double)  a/b; // decimal Division 
+	    
+	    System.out.println("\naddition " +add);
+	    System.out.println("mul" +mul);
+	    System.out.println("sub" +sub);
+	    System.out.println("div" +div);
+	    
+	    
+}
+
+}
